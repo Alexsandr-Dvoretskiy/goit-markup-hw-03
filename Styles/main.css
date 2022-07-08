@@ -23,6 +23,10 @@ body {
 	letter-spacing: 0.03em;
 	text-decoration: none;
 }
+.section {
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
 
 a {
 	text-decoration: none;
@@ -30,6 +34,8 @@ a {
 
 ul {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 /* header */
 
@@ -60,6 +66,13 @@ ul {
 
 .page-header {
 	background-color: var(--primari-bg-color);
+	outline: 1px solid red;
+	/* background-color: tomato; */
+}
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .site-nav a {
@@ -98,6 +111,7 @@ ul {
 .hero {
 	height: 600px;
 	text-align: center;
+	outline: 1px solid red;
 }
 .hero-title {
 	color: var(--primary-text-color);
@@ -107,8 +121,18 @@ ul {
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+	outline: 1px solid red;
+	margin-top: 0;
+	margin-bottom: 30px;
 }
 .button-hero {
+	border-radius: 4px;
+	padding: 10px 32px;
+	min-width: 200px;
+	border: solid transparent;
+	display: inline-block;
+	/* outline: 1px solid red; */
+
 	color: var(--primari-bg-color);
 	background-color: var(--accent-text-color);
 	font-family: inherit;
@@ -124,26 +148,45 @@ ul {
 /* section */
 
 .section-title {
+	margin-top: 0;
+	margin-bottom: 50px;
+
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
+	outline: 1px solid red;
+}
+
+.work {
+	padding-bottom: 94px;
+	outline: 1px solid red;
 }
 
 /* benefits */
 
 .benefits {
+	padding: 94px;
+
 	background-color: var(--main-background-color);
+	outline: 1px solid red;
 }
 /* features */
 
 .features .title {
 	color: var(--title-text-color);
 }
+.features-title {
+	padding: 0;
+	margin: 0;
+}
 
 .title {
+	margin-top: 0;
+	margin-bottom: 10px;
+
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 1.14;
@@ -152,6 +195,8 @@ ul {
 }
 
 .feature-text {
+	margin-top: 0;
+
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
@@ -162,9 +207,21 @@ ul {
 
 .team {
 	background-color: var(--secondary-background-color);
+	outline: 1px solid red;
+}
+.team p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 30px;
 }
 
 .team-list h3 {
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+	margin-top: 0;
+	margin-bottom: 0;
+
 	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 16px;
@@ -182,6 +239,7 @@ ul {
 
 .fotter {
 	background-color: #2f303a;
+	outline: 1px solid red;
 }
 
 .fotter a:hover,
@@ -198,6 +256,8 @@ ul {
 }
 
 .address-contacts {
+	padding-bottom: 9px;
+
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
 	font-size: 14px;
@@ -248,5 +308,16 @@ ul {
 }
 
 .button-list {
+	padding-bottom: 9px;
+
 	text-align: center;
+}
+
+.address-item {
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.address {
+	padding-bottom: 60px;
 }
