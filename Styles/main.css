@@ -73,6 +73,8 @@ ul {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+
+	outline: 2px solid red;
 }
 
 .site-nav a {
@@ -131,7 +133,6 @@ ul {
 	min-width: 200px;
 	border: solid transparent;
 	display: inline-block;
-	/* outline: 1px solid red; */
 
 	color: var(--primari-bg-color);
 	background-color: var(--accent-text-color);
@@ -227,6 +228,10 @@ ul {
 	font-size: 16px;
 	line-height: 1.18;
 	letter-spacing: 0.03em;
+	text-align: center;
+}
+.team-list p {
+	text-align: center;
 }
 
 .team-text {
