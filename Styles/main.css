@@ -219,6 +219,7 @@ ul {
 .team-list h3 {
 	padding-top: 30px;
 	padding-bottom: 10px;
+	outline: 1px solid red;
 
 	margin-top: 0;
 	margin-bottom: 0;
@@ -232,6 +233,7 @@ ul {
 }
 .team-list p {
 	text-align: center;
+	outline: 1px solid red;
 }
 
 .team-text {
