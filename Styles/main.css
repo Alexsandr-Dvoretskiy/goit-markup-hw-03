@@ -8,7 +8,7 @@
 /* вторичный цвет фона #F5F4FA */
 
 :root {
-	--primary-text-color: #757575;
+	--primary-text-color: rgba(117, 117, 117, 1);
 	--title-text-color: #212121;
 	--accent-text-color: #2196f3;
 	--primari-bg-color: #ffffff;
@@ -212,17 +212,14 @@ ul {
 }
 .team p {
 	margin-top: 0;
-	margin-bottom: 0;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
+	outline: 1px solid red;
 }
 
 .team-list h3 {
-	padding-top: 30px;
-	padding-bottom: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 	outline: 1px solid red;
-
-	margin-top: 0;
-	margin-bottom: 0;
 
 	color: var(--title-text-color);
 	font-weight: 500;
@@ -231,12 +228,11 @@ ul {
 	letter-spacing: 0.03em;
 	text-align: center;
 }
-.team-list p {
-	text-align: center;
-	outline: 1px solid red;
-}
 
 .team-text {
+	text-align: center;
+	outline: 1px solid red;
+
 	font-size: 16px;
 	line-height: 1.18;
 	letter-spacing: 0.03em;
@@ -245,6 +241,8 @@ ul {
 /* fotter */
 
 .fotter {
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: #2f303a;
 	outline: 1px solid red;
 }
@@ -254,7 +252,15 @@ ul {
 	color: var(--title-text-color);
 }
 
+.address-item {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
 .address-list {
+	display: inline-block;
+	margin-bottom: 9px;
+
 	color: var(--primari-bg-color);
 	font-style: normal;
 	font-size: 14px;
@@ -263,13 +269,24 @@ ul {
 }
 
 .address-contacts {
-	padding-bottom: 9px;
+	display: inline-block;
+	margin-bottom: 9px;
 
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.7;
 	text-decoration: none;
+}
+
+.portfolio-link {
+	display: inline-block;
+}
+
+.address-contacts.tel {
+	display: inline-block;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 /* портфолио */
@@ -281,8 +298,14 @@ ul {
 /* кнопки навигации */
 
 .button-nav {
+	border-radius: 4px;
+	padding: 6px 22px;
+	display: inline-block;
+	border: solid transparent;
+	outline: 1px solid rebeccapurple;
+
 	color: var(--title-text-color);
-	background-color: var(--primary-text-color);
+	background-color: rgba(245, 244, 250, 1);
 	font-family: inherit;
 	font-weight: 500;
 	font-size: 16px;
@@ -300,6 +323,9 @@ ul {
 /* ссылки */
 
 .portfolio-title {
+	margin: 20px 24px 4px;
+	outline: 1px solid rebeccapurple;
+
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 18px;
@@ -308,23 +334,15 @@ ul {
 }
 
 .portfolio-text {
+	margin: 0px 24px 20px;
+
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color);
+	outline: 1px solid rebeccapurple;
 }
 
 .button-list {
-	padding-bottom: 9px;
-
 	text-align: center;
-}
-
-.address-item {
-	padding-top: 60px;
-	padding-bottom: 20px;
-}
-
-.address {
-	padding-bottom: 60px;
 }
