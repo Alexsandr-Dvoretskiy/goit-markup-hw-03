@@ -114,7 +114,7 @@ ul {
 	padding-top: 32px;
 	padding-bottom: 32px;
 
-	color: var(--primary-text-color);
+	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -170,6 +170,10 @@ ul {
 	text-align: center;
 }
 
+.hero.section {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
 .hero-title {
 	margin-top: 0;
 	margin-bottom: 30px;
@@ -274,9 +278,9 @@ ul {
 	flex-wrap: wrap;
 }
 
-.work-img .item {
+/* .work-img .item {
 	margin-right: var(--card-set-gap);
-}
+} */
 
 .work-img .item:nth-child(3n) {
 	margin-right: 0;
@@ -289,12 +293,16 @@ ul {
 }
 .team p {
 	margin-top: 0;
-	margin-bottom: var(--card-set-gap);
+	margin-bottom: 0;
+	/* margin-bottom: var(--card-set-gap); */
 }
 
 .team-list h3 {
-	margin-top: var(--card-set-gap);
+	/* margin-top: var(--card-set-gap); */
+	/* padding-bottom: 10px; */
 	margin-bottom: 10px;
+
+	margin-top: 0;
 
 	color: var(--title-text-color);
 	font-weight: 500;
@@ -322,6 +330,9 @@ ul {
 	border: 1px solid var(--border-card);
 	background-color: var(--primari-bg-color);
 	box-shadow: var(--card-shadow);
+	/* padding-bottom: var(--card-set-gap);
+	padding-top: var(--card-set-gap); */
+	padding: 30px 30px;
 }
 
 /* fotter */
@@ -380,7 +391,6 @@ ul {
 /* кнопки навигации */
 
 .button-nav {
-	margin-bottom: 50px;
 	border-radius: 4px;
 	padding: 6px 22px;
 	display: inline-block;
@@ -399,6 +409,7 @@ ul {
 .button-list {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 50px;
 }
 .button-list .item:not(:last-child) {
 	margin-right: 8px;
@@ -412,7 +423,9 @@ ul {
 /* ссылки */
 
 .portfolio-title {
-	margin: 20px 24px 4px;
+	/* padding: 20px 24px 4px; */
+	margin: 0;
+	margin-bottom: 4px;
 
 	color: var(--title-text-color);
 	font-weight: 700;
@@ -422,7 +435,8 @@ ul {
 }
 
 .portfolio-text {
-	margin: 0px 24px 20px;
+	/* padding: 0px 24px 20px; */
+	margin: 0;
 
 	font-size: 16px;
 	line-height: 1.88;
@@ -451,4 +465,5 @@ ul {
 .card-content {
 	border: 1px solid var(--border-card);
 	background-color: var(--primari-bg-color);
+	padding: 20px 24px;
 }
