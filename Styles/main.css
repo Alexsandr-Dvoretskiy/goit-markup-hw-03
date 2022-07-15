@@ -294,14 +294,10 @@ ul {
 .team p {
 	margin-top: 0;
 	margin-bottom: 0;
-	/* margin-bottom: var(--card-set-gap); */
 }
 
 .team-list h3 {
-	/* margin-top: var(--card-set-gap); */
-	/* padding-bottom: 10px; */
 	margin-bottom: 10px;
-
 	margin-top: 0;
 
 	color: var(--title-text-color);
@@ -330,9 +326,8 @@ ul {
 	border: 1px solid var(--border-card);
 	background-color: var(--primari-bg-color);
 	box-shadow: var(--card-shadow);
-	/* padding-bottom: var(--card-set-gap);
-	padding-top: var(--card-set-gap); */
-	padding: 30px 30px;
+
+	padding: var(--card-set-gap);
 }
 
 /* fotter */
